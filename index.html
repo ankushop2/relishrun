@@ -15,6 +15,8 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <!-- Style -->
     <link href="css/style.css" rel="stylesheet">
+    
+    
    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -52,8 +54,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <h1 class="hero-title">Snacks Vending Machines</h1>
-                    <p class="hero-text"><strong>In Delhi NCR, Gurgaon and Noida</strong> </p>
+                    <h1 class="hero-title"><center><div class="container"><span class="slideText"></span></center></div></div></h1>
+                   <h2 class="hero-text"><center><div class="container"><span class="slideText1"></span></center></h2>
                     </br></br>
                 </div>
             </div>
@@ -65,7 +67,7 @@
                 <div class="col-md-offset-2 col-md-8">
                     <div class="mb60 text-center section-title">
                         <!-- section title start-->
-                        <h1>VISION</h1>
+                        <h1>Why Relish Run?</h1>
                         <h3 class="small-title">To provide food to people(TO BE CHANGED)</h3>
                     </div>
                     <!-- /.section title start-->
@@ -80,7 +82,7 @@
                     <div class="section-title mb60 text-center">
                         <!-- section title start-->
                         <h1>features</h1>
-                        <h5 class="small-title">What we Offer</h5>
+                        <h5 class="small-title">the relish run edge</h5>
                     </div>
                     <!-- /.section title start-->
                 </div>
@@ -173,6 +175,28 @@ Fill in the details and our sales executive will get in touch with you as soon a
     <!-- sticky header -->
     <script src="js/jquery.sticky.js"></script>
     <script src="js/sticky-header.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="jquery.slide-text-left.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $(".slideText").slideTextLeft(
+                { words: ["Snack Vending Machines", "your 24/7 snack vendor", "MAKE YOUR ORGANISATION A SMART ONE", "SUITABLE FOR ANY ORGANISATION"], delay: 3000 }
+                //{ words: "business" }
+                //"business"
+                //["ideas", "business", "passion"], 100
+            );
+        });
+    </script>
+    <script type="text/javascript">
+        $(function() {
+            $(".slideText1").slideTextLeft(
+                { words: ["In Delhi NCR, Gurgaon and Noida", "Accessible and available round the clock", "Self Reliant, Efficient, Automatic", "Workplace, College, Hospital, Malls … "], delay: 3000 }
+                //{ words: "business" }
+                //"business"
+                //["ideas", "business", "passion"], 100
+            );
+        });
+    </script>
 </body>
 
 </html>
